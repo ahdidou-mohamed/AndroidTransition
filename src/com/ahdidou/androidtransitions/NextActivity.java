@@ -2,7 +2,11 @@ package com.ahdidou.androidtransitions;
 
 import android.app.Activity;
 import android.os.Bundle;
-
+/**
+ * 
+ * @author ahdidou
+ *
+ */
 public class NextActivity extends Activity{
 	
 	
