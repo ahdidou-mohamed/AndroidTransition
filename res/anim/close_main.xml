@@ -7,21 +7,19 @@
         android:interpolator="@android:anim/linear_interpolator"
         android:toXDelta="10%p" />
 
-    <set>
-        <scale
-            android:duration="200"
-            android:fromXScale="1.0"
-            android:fromYScale="1.0"
-            android:interpolator="@android:anim/linear_interpolator"
-            android:pivotX="50%"
-            android:pivotY="50%"
-            android:startOffset="100"
-            android:toXScale=".95"
-            android:toYScale=".95" />
+    <scale
+        android:duration="200"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:startOffset="100"
+        android:toXScale=".95"
+        android:toYScale=".95" />
 
-        <alpha
-            android:fromAlpha="1.0"
-            android:toAlpha="0.5" />
-    </set>
+    <alpha
+        android:fromAlpha="1.0"
+        android:toAlpha="0.5" />
 
 </set>
